@@ -13,9 +13,9 @@ class App extends React.Component{
         <div className="App">
           <Nav />
           <Switch>
-            <Route path="/React_pokedex" exact component={Pokemon} />
-            <Route path="/React_pokedex/type" component={Types} />
-            <Route path="/React_pokedex/stats" component={Stats} />
+            <Route path="/Pokedex" exact component={Pokemon} />
+            <Route path="/Pokedex/type" component={Types} />
+            <Route path="/Pokedex/stats" component={Stats} />
           </Switch>
         </div>
       </Router>
